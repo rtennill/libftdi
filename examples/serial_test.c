@@ -30,7 +30,7 @@ int main(int argc, char **argv)
     unsigned char buf[1024];
     int f = 0, i;
     int vid = 0x403;
-    int pid = 0;
+    int pid = 0x6001;
     int baudrate = 115200;
     int interface = INTERFACE_ANY;
     int do_write = 0;
